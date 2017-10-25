@@ -1,1 +1,16 @@
-<h1>New Article</h1>
+<h1>If I had a little black box to put the devil in I'd take him out and SMASH HIS FACE! and put him right back in.</h1>
+<%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    <p>
+      <%= form.label :title %><br>
+      <%= form.text_field :title %>
+    </p>
+
+    <p>
+      <%= form.label :text %><br>
+      <%= form.text_area :text %>
+    </p>
+
+    <p>
+      <%= form.submit %>
+    </p>
+<% end %>
