@@ -1,1 +1,1 @@
-# guides.rubyonrails git init git add README.md git commit -m first commit git remote add origin https://github.com/jcoulter/guides.rubyonrails.git git push -u origin master
+http://guides.rubyonrails.org/getting_started.html
