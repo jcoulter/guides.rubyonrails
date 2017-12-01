@@ -3,11 +3,10 @@ Rails.application.routes.draw do
 
   resources :articles
 
-    end
 
   root 'welcome#index'
 
-
-resources :articles do
-  resources :comments
+  resources :articles do
+    resources :comments
+  end
 end
